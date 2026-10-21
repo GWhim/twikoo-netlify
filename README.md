@@ -86,4 +86,4 @@ netlify/functions/twikoo.mjs
 
 ## 更新
 
-直接修改 `package.json` 中的版本号
+后续升级时同步本仓库的模板改动并重新部署即可。依赖保持为 `"twikoo-netlify": "latest"` 时，无需手工修改版本号；如果依赖改为固定版本，则按需更新 `package.json`。
